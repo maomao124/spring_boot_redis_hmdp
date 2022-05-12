@@ -1,0 +1,64 @@
+2022-05-12 20:07:41.755  INFO 2648 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-12 20:07:41.764  INFO 2648 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-12 20:07:41.764  INFO 2648 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-12 20:07:41.829  INFO 2648 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-12 20:07:41.829  INFO 2648 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1024 ms
+2022-05-12 20:07:41.900  INFO 2648 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-12 20:07:42.011  INFO 2648 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-12 20:07:43.034  INFO 2648 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-12 20:07:43.077  INFO 2648 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-12 20:07:43.087  INFO 2648 --- [restartedMain] m.s.SpringBootRedisHmdpApplication       : Started SpringBootRedisHmdpApplication in 2.64 seconds (JVM running for 3.174)
+2022-05-12 20:08:28.214  INFO 2648 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-12 20:08:28.214  INFO 2648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-12 20:08:28.215  INFO 2648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-12 20:08:28.555 DEBUG 2648 --- [http-nio-8080-exec-1] m.s.mapper.ShopTypeMapper.selectList     : ==>  Preparing: SELECT id,name,icon,sort,create_time,update_time FROM tb_shop_type ORDER BY sort ASC
+2022-05-12 20:08:28.573 DEBUG 2648 --- [http-nio-8080-exec-1] m.s.mapper.ShopTypeMapper.selectList     : ==> Parameters: 
+2022-05-12 20:08:28.592 DEBUG 2648 --- [http-nio-8080-exec-1] m.s.mapper.ShopTypeMapper.selectList     : <==      Total: 10
+2022-05-12 20:08:48.747  INFO 2648 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-12 20:08:48.750  INFO 2648 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-12 20:08:51.493  INFO 10228 --- [restartedMain] m.s.SpringBootRedisHmdpApplication       : Starting SpringBootRedisHmdpApplication using Java 16.0.2 on mao with PID 10228 (H:\程序\大三下期\spring_boot_redis_hmdp\target\classes started by mao in H:\程序\大三下期\spring_boot_redis_hmdp)
+2022-05-12 20:08:51.494 DEBUG 10228 --- [restartedMain] m.s.SpringBootRedisHmdpApplication       : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-12 20:08:51.494  INFO 10228 --- [restartedMain] m.s.SpringBootRedisHmdpApplication       : The following 1 profile is active: "dev"
+2022-05-12 20:08:51.529  INFO 10228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-12 20:08:51.529  INFO 10228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-12 20:08:52.020  INFO 10228 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-12 20:08:52.022  INFO 10228 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-12 20:08:52.042  INFO 10228 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-05-12 20:08:52.482  INFO 10228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-12 20:08:52.488  INFO 10228 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-12 20:08:52.489  INFO 10228 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-12 20:08:52.548  INFO 10228 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-12 20:08:52.548  INFO 10228 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1018 ms
+2022-05-12 20:08:52.622  INFO 10228 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-12 20:08:52.714  INFO 10228 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-12 20:08:53.725  INFO 10228 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-12 20:08:53.772  INFO 10228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-12 20:08:53.783  INFO 10228 --- [restartedMain] m.s.SpringBootRedisHmdpApplication       : Started SpringBootRedisHmdpApplication in 2.618 seconds (JVM running for 3.21)
+2022-05-12 20:08:53.828  INFO 10228 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-12 20:08:53.828  INFO 10228 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-12 20:08:53.829  INFO 10228 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-12 20:08:54.111 DEBUG 10228 --- [http-nio-8081-exec-1] m.s.mapper.ShopTypeMapper.selectList     : ==>  Preparing: SELECT id,name,icon,sort,create_time,update_time FROM tb_shop_type ORDER BY sort ASC
+2022-05-12 20:08:54.131 DEBUG 10228 --- [http-nio-8081-exec-1] m.s.mapper.ShopTypeMapper.selectList     : ==> Parameters: 
+2022-05-12 20:08:54.150 DEBUG 10228 --- [http-nio-8081-exec-1] m.s.mapper.ShopTypeMapper.selectList     : <==      Total: 10
+2022-05-12 20:09:01.485 DEBUG 10228 --- [http-nio-8081-exec-3] m.s.mapper.ShopTypeMapper.selectList     : ==>  Preparing: SELECT id,name,icon,sort,create_time,update_time FROM tb_shop_type ORDER BY sort ASC
+2022-05-12 20:09:01.486 DEBUG 10228 --- [http-nio-8081-exec-3] m.s.mapper.ShopTypeMapper.selectList     : ==> Parameters: 
+2022-05-12 20:09:01.490 DEBUG 10228 --- [http-nio-8081-exec-3] m.s.mapper.ShopTypeMapper.selectList     : <==      Total: 10
+2022-05-12 20:09:01.756 DEBUG 10228 --- [http-nio-8081-exec-4] m.s.mapper.ShopTypeMapper.selectList     : ==>  Preparing: SELECT id,name,icon,sort,create_time,update_time FROM tb_shop_type ORDER BY sort ASC
+2022-05-12 20:09:01.756 DEBUG 10228 --- [http-nio-8081-exec-4] m.s.mapper.ShopTypeMapper.selectList     : ==> Parameters: 
+2022-05-12 20:09:01.760 DEBUG 10228 --- [http-nio-8081-exec-4] m.s.mapper.ShopTypeMapper.selectList     : <==      Total: 10
+2022-05-12 20:09:02.005 DEBUG 10228 --- [http-nio-8081-exec-5] m.s.mapper.ShopTypeMapper.selectList     : ==>  Preparing: SELECT id,name,icon,sort,create_time,update_time FROM tb_shop_type ORDER BY sort ASC
+2022-05-12 20:09:02.006 DEBUG 10228 --- [http-nio-8081-exec-5] m.s.mapper.ShopTypeMapper.selectList     : ==> Parameters: 
+2022-05-12 20:09:02.011 DEBUG 10228 --- [http-nio-8081-exec-5] m.s.mapper.ShopTypeMapper.selectList     : <==      Total: 10
+2022-05-12 20:09:02.202 DEBUG 10228 --- [http-nio-8081-exec-6] m.s.mapper.ShopTypeMapper.selectList     : ==>  Preparing: SELECT id,name,icon,sort,create_time,update_time FROM tb_shop_type ORDER BY sort ASC
+2022-05-12 20:09:02.202 DEBUG 10228 --- [http-nio-8081-exec-6] m.s.mapper.ShopTypeMapper.selectList     : ==> Parameters: 
+2022-05-12 20:09:02.204 DEBUG 10228 --- [http-nio-8081-exec-6] m.s.mapper.ShopTypeMapper.selectList     : <==      Total: 10
+2022-05-12 20:31:01.048  WARN 10228 --- [http-nio-8081-exec-10] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/test, version : 1.2.8, lastPacketReceivedIdleMillis : 1318838
+2022-05-12 20:31:01.070 DEBUG 10228 --- [http-nio-8081-exec-10] m.s.mapper.ShopTypeMapper.selectList     : ==>  Preparing: SELECT id,name,icon,sort,create_time,update_time FROM tb_shop_type ORDER BY sort ASC
+2022-05-12 20:31:01.070 DEBUG 10228 --- [http-nio-8081-exec-10] m.s.mapper.ShopTypeMapper.selectList     : ==> Parameters: 
+2022-05-12 20:31:01.073 DEBUG 10228 --- [http-nio-8081-exec-10] m.s.mapper.ShopTypeMapper.selectList     : <==      Total: 10
+2022-05-12 20:33:31.792  WARN 10228 --- [http-nio-8081-exec-3] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/test, version : 1.2.8, lastPacketReceivedIdleMillis : 150721
+2022-05-12 20:33:31.813 DEBUG 10228 --- [http-nio-8081-exec-3] m.s.mapper.ShopTypeMapper.selectList     : ==>  Preparing: SELECT id,name,icon,sort,create_time,update_time FROM tb_shop_type ORDER BY sort ASC
+2022-05-12 20:33:31.813 DEBUG 10228 --- [http-nio-8081-exec-3] m.s.mapper.ShopTypeMapper.selectList     : ==> Parameters: 
+2022-05-12 20:33:31.815 DEBUG 10228 --- [http-nio-8081-exec-3] m.s.mapper.ShopTypeMapper.selectList     : <==      Total: 10
+2022-05-12 20:39:26.902  INFO 10228 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-12 20:39:26.904  INFO 10228 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
