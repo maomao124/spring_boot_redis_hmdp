@@ -1,0 +1,15 @@
+2022-05-12 20:41:07.125  INFO 3432 --- [main] m.s.SpringBootRedisHmdpApplication       : Starting SpringBootRedisHmdpApplication v0.0.1-SNAPSHOT using Java 16.0.2 on mao with PID 3432 (H:\程序\大三下期\spring_boot_redis_hmdp\target\spring_boot_redis_hmdp-0.0.1-SNAPSHOT.jar started by mao in H:\程序\大三下期\spring_boot_redis_hmdp\target)
+2022-05-12 20:41:07.128 DEBUG 3432 --- [main] m.s.SpringBootRedisHmdpApplication       : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-12 20:41:07.129  INFO 3432 --- [main] m.s.SpringBootRedisHmdpApplication       : The following 1 profile is active: "dev"
+2022-05-12 20:41:08.016  INFO 3432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-12 20:41:08.021  INFO 3432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-12 20:41:08.059  INFO 3432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2022-05-12 20:41:08.848  INFO 3432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-12 20:41:08.859  INFO 3432 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-12 20:41:08.859  INFO 3432 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-12 20:41:08.928  INFO 3432 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-12 20:41:08.929  INFO 3432 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1728 ms
+2022-05-12 20:41:09.041  INFO 3432 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-12 20:41:09.241  INFO 3432 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-12 20:41:11.336  INFO 3432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-12 20:41:11.359  INFO 3432 --- [main] m.s.SpringBootRedisHmdpApplication       : Started SpringBootRedisHmdpApplication in 4.877 seconds (JVM running for 5.376)

@@ -62,3 +62,14 @@
 2022-05-12 20:33:31.815 DEBUG 10228 --- [http-nio-8081-exec-3] m.s.mapper.ShopTypeMapper.selectList     : <==      Total: 10
 2022-05-12 20:39:26.902  INFO 10228 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
 2022-05-12 20:39:26.904  INFO 10228 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-12 20:40:37.683  INFO 568 --- [main] m.s.SpringBootRedisHmdpApplicationTests  : Starting SpringBootRedisHmdpApplicationTests using Java 16.0.2 on mao with PID 568 (started by mao in H:\程序\大三下期\spring_boot_redis_hmdp)
+2022-05-12 20:40:37.685 DEBUG 568 --- [main] m.s.SpringBootRedisHmdpApplicationTests  : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-12 20:40:37.686  INFO 568 --- [main] m.s.SpringBootRedisHmdpApplicationTests  : The following 1 profile is active: "dev"
+2022-05-12 20:40:38.524  INFO 568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-12 20:40:38.527  INFO 568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-12 20:40:38.564  INFO 568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2022-05-12 20:40:39.149  INFO 568 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-12 20:40:39.452  INFO 568 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-12 20:40:42.195  INFO 568 --- [main] m.s.SpringBootRedisHmdpApplicationTests  : Started SpringBootRedisHmdpApplicationTests in 4.915 seconds (JVM running for 5.781)
+2022-05-12 20:40:42.710  INFO 568 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-12 20:40:42.712  INFO 568 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
